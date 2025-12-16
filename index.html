@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binay Thapa - IT & Data Professional | Portfolio</title>
+    <meta name="description" content="Binay Thapa - IT & Data Professional in London, UK. Expertise in Python, SQL, Power BI, Full-Stack Development. View portfolio for data analysis and IT roles.">
+    <meta name="keywords" content="Binay Thapa, IT Professional London, Data Analyst UK, Full-Stack Developer, Python SQL Power BI, Portfolio, UK Recruiter">
+    <meta name="author" content="Binay Thapa">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth; /* Modern fallback for smooth scrolling */
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .dark-mode {
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .dark-mode .navbar, .dark-mode footer {
+            background-color: #1a1a1a !important;
+        }
+        .dark-mode .skill-card, .dark-mode .project-card, .dark-mode .list-group-item {
+            background-color: #2a2a2a;
+            color: #e0e0e0;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .btn-custom {
+            margin: 0 10px;
+            border-radius: 25px;
+            padding: 10px 20px;
+        }
+        .section {
+            padding: 60px 0;
+            scroll-margin-top: 80px; /* Modern adjustment for fixed navbar */
+        }
+        .skill-card, .project-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .skill-card:hover, .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+            padding-left: 30px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 10px;
+            height: 10px;
+            background: #667eea;
+            border-radius: 50%;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navbar-brand {
+            font-weight: 700;
+        }
+        #contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Binay Thapa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-light ms-3">🌙 Dark Mode</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <img src="profile.jpg" alt="Binay Thapa" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;" onerror="this.style.display='none';">
+            <h1>Binay Thapa</h1>
+            <p class="lead">IT & Data Professional | Data Analyst </p>
+            <p>“Turning data into insights and technology into solutions.”</p>
+            <a href="cv.pdf" download class="btn btn-light btn-custom">Download CV</a>
+            <a href="#contact" class="btn btn-outline-light btn-custom">Contact Me</a>
+            <a href="#projects" class="btn btn-outline-light btn-custom">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Results-driven IT and Data Professional with hands-on experience in technical support, database management, and data analysis. Proficient in Python, SQL, and Power BI, with strong analytical and problem-solving skills. Experienced in managing IT systems, automating workflows, and delivering data-driven insights to improve operational efficiency and decision-making. Passionate about data integration, leveraging mainframe systems for robust IT solutions, and transforming raw data into actionable intelligence through advanced analytics, visualization tools like Tableau, and predictive modeling to drive business growth and innovation.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h4><i class="fas fa-code"></i> Programming & Scripting</h4>
+                        <ul class="list-unstyled">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Node.js</li>
+                            <li>C#</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                            <li>Bash</li>
+                            <li>VBA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h4><i class="fas fa-chart-bar"></i> Data & Analytics</h4>
+                        <ul class="list-unstyled">
+                            <li>SQL Server</li>
+                            <li>Oracle</li>
+                            <li>Power BI</li>
+                            <li>Tableau</li>
+                            <li>Excel</li>
+                            <li>Pandas</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <h4><i class="fas fa-network-wired"></i> IT & Systems</h4>
+                        <ul class="list-unstyled">
+                            <li>LAN/WAN Networking</li>
+                            <li>User & Asset Management</li>
+                            <li>Hardware Troubleshooting</li>
+                            <li>System Monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <h4><i class="fas fa-briefcase"></i> Business & Analytical</h4>
+                        <ul class="list-unstyled">
+                            <li>Business Analysis</li>
+                            <li>Process Improvement</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>IT Assistant</h4>
+                    <p><strong>Aviyan Laghubitta Bittiya Sanstha Limited (Microfinance)</strong> | Nov 2022 – Jan 2024</p>
+                    <ul>
+                        <li>Provided IT support across 60+ branches with a 95% issue resolution rate</li>
+                        <li>Managed 200+ user accounts, licenses, and IT assets</li>
+                        <li>Optimized LAN/WAN networks and SQL Server reporting</li>
+                        <li>Delivered cybersecurity and data handling training to 40+ staff</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h4>Junior IT Assistant</h4>
+                    <p><strong>Job Seeker Manpower Pvt. Ltd.</strong> | Sep 2021 – Oct 2022</p>
+                    <ul>
+                        <li>Supported daily IT operations and network troubleshooting</li>
+                        <li>Maintained asset and license management databases</li>
+                        <li>Managed secure applicant data for 200–300 overseas job seekers per cycle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h5>IMS-CONNECT (Innovation Management System)</h5>
+                        <p>Full-stack web application with secure authentication and role-based access. RESTful APIs and user management system. Technologies: React, Node.js, Express, SQL Server.</p>
+                        <a href="https://github.com/binaythapa01/IMS-Connect-Innovation-Management-System-" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h5>Comparative Analysis of Academic Performance and Career Outcomes</h5>
+                        <p>Data analysis using Python, Pandas, and Seaborn. Visualized multi-sheet datasets to identify performance trends.</p>
+                        <a href="https://colab.research.google.com/drive/1uN_bV0lzNicVJajXMQxTjGCbzWp5UA_D#scrollTo=sD5a7eDqPjE8" class="btn btn-primary" target="_blank">View on Google Colab</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>MSc Information Systems</strong> — University of West London (2025)</li>
+                <li class="list-group-item"><strong>BSc (Hons) Computing</strong> — Coventry University (Affiliated via Softwarica College) (2021)</li>
+                <li class="list-group-item"><strong>Intermediate (Management Stream)</strong> — Tilottama Higher Secondary School</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section bg-light">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Certificate in Graphic Design (2017)</strong> - Skills: Adobe Photoshop, Color Theory, Visual Composition</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Location: London, UK</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:binaythapa202@gmail.com">binaythapa202@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> Phone: +44 07824 161239</p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/binaythapa" target="_blank">linkedin.com/in/binaythapa</a></p>
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Binay Thapa. All rights reserved. | Built with Bootstrap</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Dark Mode Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            themeToggle.textContent = document.body.classList.contains('dark-mode') ? '☀️ Light Mode' : '🌙 Dark Mode';
+        });
+
+        // Smooth Scrolling Fallback for All Browsers (including older ones)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const offsetTop = targetElement.offsetTop - 80; // 80px offset for fixed navbar
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
